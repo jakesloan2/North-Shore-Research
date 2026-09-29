@@ -53,17 +53,16 @@ window.PRODUCTS = [
   {
     id: "protein-capsules",
     image: "images/products/protein-capsules.jpg",
-    name: "Buro Protein Capsules",          // [CONFIRM BRAND SPELLING]
+    name: "BPC-157",          // [CONFIRM BRAND SPELLING]
     category: "All",
-    form: "bottle",
+    form: "Vial",
     tint: "rgba(216,20,44,.45)",
-    short: "Protein in capsule form. [X] capsules per bottle.",
-    description: "[SUPPLIER DESCRIPTION] Protein contributes to a growth in muscle mass and to the maintenance of normal bones.",
+    short: "Molecular Formula - C₆₂H₉₈N₁₆O₂₂.",
+    description: "BPC-157 is a synthetic pentadecapeptide whose sequence corresponds to a partial fragment of a protein identified in gastric juice. In laboratory settings it is studied for its effect on angiogenic signalling, including VEGFR2 pathway activation, and on fibroblast migration and adhesion. Research is conducted in cell culture and animal models.",
     badges: ["Best seller"],
-    options: { Size: ["[90] capsules", "[180] capsules"] },
+    options: { Size: ["10 mg"] },
     variants: [
-      { sku: "PRO-CAP-90",  options: { Size: "[90] capsules" },  price: 24.99, stock: 40 },
-      { sku: "PRO-CAP-180", options: { Size: "[180] capsules" }, price: 39.99, stock: 25 }
+      { sku: "PRO-CAP-90",  options: { Size: "10 mg" },  price: 39.99, stock: 40 }
     ],
     label: {
       ingredients: "[FULL INGREDIENT LIST FROM THE SUPPLIER LABEL, ALLERGENS IN <b>BOLD</b>]",
